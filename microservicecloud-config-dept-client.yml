@@ -45,7 +45,8 @@ info:
   company.name: www.yonyou.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-
+user:
+  name: aaa
 
 ---
 server:
@@ -89,5 +90,6 @@ info:
   company.name: www.yonyou.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-
+user:
+  name: bbb
 
