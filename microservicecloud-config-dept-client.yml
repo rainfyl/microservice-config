@@ -91,5 +91,5 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 user:
-  name: bbb
+  name: bbbccc
 
