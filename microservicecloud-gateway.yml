@@ -18,6 +18,16 @@ spring:
 spring:
 
    profiles: dev
+   cloud:
+    gateway:
+      default-filters:
+      routes:
+      - id: microservicecloud-dept
+        uri: lb://MICROSERVICECLOUD-DEPT
+        predicates:
+          - Path=/microservicecloud-dept/**
+        filters:
+          - StripPrefix=1
 
 eureka:
   client: 
@@ -36,6 +46,16 @@ eureka:
 spring:
 
    profiles: test
+   cloud:
+    gateway:
+      default-filters:
+      routes:
+      - id: microservicecloud-dept
+        uri: lb://MICROSERVICECLOUD-DEPT
+        predicates:
+          - Path=/microservicecloud-dept/**
+        filters:
+          - StripPrefix=1
 
 eureka:
   client: 
