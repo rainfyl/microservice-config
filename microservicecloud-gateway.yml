@@ -6,7 +6,7 @@ spring:
 
 ---
 server:
-  port: 9528
+  port: 9527
 spring:
    profiles: dev
    cloud:
@@ -33,7 +33,7 @@ eureka:
     
 ---
 server:
-  port: 9528
+  port: 9527
 spring:
    profiles: test
    cloud:
