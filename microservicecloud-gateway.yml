@@ -1,17 +1,12 @@
 spring:
-
   profiles:
-
     active:
-
     - dev
-
     
 
 ---
 server:
   port: 9527 
-
 spring:
    profiles: dev
    cloud:
@@ -39,9 +34,7 @@ eureka:
 ---
 server:
   port: 9527 
-
 spring:
-
    profiles: test
    cloud:
     gateway:
