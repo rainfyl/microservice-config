@@ -13,8 +13,6 @@ mybatis:
     
 spring:
    profiles: dev
-   application:
-    name: microservicecloud-dept #向外暴露微服务的名称
    datasource:
     #type: com.alibaba.druid.pool.DruidDataSource    
     type: com.zaxxer.hikari.HikariDataSource        # 当前数据源操作类型
@@ -56,8 +54,6 @@ mybatis:
     
 spring:
    profiles: test
-   application:
-    name: microservicecloud-dept #向外暴露微服务的名称
    datasource:
     #type: com.alibaba.druid.pool.DruidDataSource    
     type: com.zaxxer.hikari.HikariDataSource        # 当前数据源操作类型
