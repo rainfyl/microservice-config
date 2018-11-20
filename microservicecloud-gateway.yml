@@ -19,10 +19,6 @@ spring:
 
    profiles: dev
 
-   application:
-
-      name: microservicecloud-gateway #向外暴露微服务的名称
-
 eureka:
   client: 
     service-url: 
@@ -40,10 +36,6 @@ eureka:
 spring:
 
    profiles: test
-
-   application:
-
-      name: microservicecloud-gateway #向外暴露微服务的名称
 
 eureka:
   client: 
